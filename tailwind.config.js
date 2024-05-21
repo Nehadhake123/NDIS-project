@@ -7,12 +7,73 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        white: "#fff",
+        "taittle-color": "#142653",
+        gray: "rgba(255, 255, 255, 0.15)",
+        "background-color": "#fffcf3",
+        "primery-color": "#ffa32b",
+        "paragraph-font-color": "#4f5b78",
+        black: "#000",
+        whitesmoke: "#e9e9e9",
+        chocolate: "#cc7000",
+        orange: "rgba(255, 163, 43, 0.24)",
+        darkgray: {
+          "100": "#9c9c9c",
+          "200": "rgba(153, 153, 153, 0.2)",
+        },
+        midnightblue: {
+          "100": "rgba(11, 41, 114, 0.05)",
+          "200": "rgba(11, 41, 114, 0.1)",
+        },
+      },
+      spacing: {},
+      fontFamily: {
+        manrope: "Manrope",
+      },
+      borderRadius: {
+        "11xl": "30px",
+        "23xl": "42px",
+        "12xs": "1px",
+        "9xl": "28px",
+        "4xs": "9px",
+        "15xl": "34px",
+      },
+    },
+    fontSize: {
+      base: "16px",
+      "5xl": "24px",
+      lgi: "19px",
+      "13xl": "32px",
+      "7xl": "26px",
+      lg: "18px",
+      xl: "20px",
+      "29xl": "48px",
+      "10xl": "29px",
+      "19xl": "38px",
+      "3xs": "10px",
+      sm: "14px",
+      "45xl": "64px",
+      "32xl": "51px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq1425: {
+        raw: "screen and (max-width: 1425px)",
+      },
+      lg: {
+        max: "1200px",
+      },
+      mq825: {
+        raw: "screen and (max-width: 825px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
       },
     },
   },
-  plugins: [],
-};
+  corePlugins: {
+    preflight: false,
+  },
+}
+
