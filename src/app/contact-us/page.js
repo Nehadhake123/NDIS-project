@@ -1,4 +1,11 @@
+import ContactForm from "@/Contact/ContactForm";
+import MainContaint from "@/Contact/MainContaint";
+
 export default function ContactUs() {
-    return <h1>Contact Us Page</h1>;
+    return (
+      <>
+      <MainContaint/>
+      </>
+    )
   }
   

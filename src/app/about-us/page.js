@@ -1,15 +1,20 @@
-import React from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Testimonial from "@/components/Home/HomeContent/Info/Testimonial";
+import NavigationBar from "@/About/NavigationBar";
+import AboutContent from "@/About/AboutContent";
+import AboutContent1 from "@/About/AboutContent1";
+import AboutContent2 from "@/About/AboutContent2";
+import AboutContent3 from "@/About/AboutContent3";
 
-const AboutUs = () => {
+export default function About() {
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
-   <Header/>
-   <div>AboutUs</div>
-   <Footer/>
-    </div>
-  );
-};
+    <>
 
-export default AboutUs;
+      <AboutContent />
+      <NavigationBar />
+      <AboutContent1 />
+      <AboutContent2 />
+      <Testimonial />
+      <AboutContent3 />
+    </>
+  )
+}

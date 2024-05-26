@@ -1,4 +1,12 @@
+import LoginContent from "@/components/Login/LoginContent";
+import MainForm from "@/components/Login/MainForm";
+import NavBar from "@/components/Login/NavBar";
+
 export default function Login() {
-    return <h1>Login Page</h1>;
+    return <>
+    <LoginContent/>
+    <NavBar/>
+    <MainForm/>
+    </>
   }
   

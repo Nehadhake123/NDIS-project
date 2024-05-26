@@ -15,7 +15,7 @@ const Header = () => {
           <Link href="/">
             <div className="relative font-semibold text-taittle-color inline-block min-w-[45px]">Home</div>
           </Link>
-          <Link href="/find-providers">
+          <Link href="/provider">
             <div className="relative font-medium inline-block min-w-[106px] whitespace-nowrap">Find Providers</div>
           </Link>
           <Link href="/find-services">
